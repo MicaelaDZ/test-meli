@@ -4,7 +4,7 @@ import React from 'react';
 
 function Barra() {
 
-
+  
   return (
     <div className='box'
     style={{color:"black",
@@ -13,11 +13,26 @@ function Barra() {
     width: '100%',
     backgroundColor: 'yellow',
     display:"flex",
-    justifyContent: 'flex-start'
+    justifyContent: 'center',
+    alignItems: 'center'
 
     }}
     >
-        hola soy giuli y soy una banana
+      <img src='./images/logo3.png' style={{width: '3.5rem', marginRight: '.5rem'}}></img>
+      
+        <input
+        placeholder="Nunca dejes de buscar"
+        style={{width: '70%', display: 'flex', justifyContent: 'center', height: '2rem'}}
+        />
+        <button
+        type='submit'
+        >
+          <img src='./images/lupa.webp'
+          style={{width: '1.7rem', heigth: '1.7rem'}}>
+
+          </img>
+        </button>
+        
     </div>
   )
 }
