@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.box {
+background-color: $primary;
+width: 100%;
+color:black;
+margin-top: 0px;
+height: 3.5rem;
+width:100%;
+background-color: yellow;
+display:flex;
+justify-content: center;
+align-items: center
+
+}

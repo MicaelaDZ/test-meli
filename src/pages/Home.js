@@ -1,15 +1,23 @@
-import React from 'react'
-import Barra from '../components/Barra'
+import React from "react";
+import NavBar from "../components/NavBar/NavBar";
+import ProductCard from "../components/ProductCard/ProductCard";
 
 function Home() {
   return (
-    <div 
-    // style={{height: 'auto'
-    // }}
-    >
-      <Barra/>
+    <div>
+      <NavBar />
+      <ProductCard
+        left={<ProductCard.Image />}
+        middle={
+          <ProductCard.Content>
+            <ProductCard.Price />
+            <ProductCard.Title />
+          </ProductCard.Content>
+        }
+        right={<ProductCard.Ubication/>}
+      />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

@@ -1,23 +1,10 @@
 import React from 'react';
-// import '../styles/barra/barra.scss';
-// import 'src/styles/barra/barra.scss';
+import './_NavBar.styles.scss'
 
-function Barra() {
-
+function NavBar() {
   
   return (
-    <div className='box'
-    style={{color:"black",
-    marginTop: '0px',
-    height: '3.5rem',
-    width: '100%',
-    backgroundColor: 'yellow',
-    display:"flex",
-    justifyContent: 'center',
-    alignItems: 'center'
-
-    }}
-    >
+    <div className='box' >
       <img src='./images/logo3.png' style={{width: '3.5rem', marginRight: '.5rem'}}></img>
       
         <input
@@ -37,4 +24,4 @@ function Barra() {
   )
 }
 
-export default Barra
+export default NavBar
