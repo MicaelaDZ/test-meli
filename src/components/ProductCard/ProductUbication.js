@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ProductUbication() {
+function ProductUbication({ubication}) {
   return (
-    <div>ProductUbication</div>
+    <div className='product-card__ubication'>Capital Federal</div>
   )
 }
 

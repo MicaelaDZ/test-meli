@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar/NavBar";
 import ProductCard from "../components/ProductCard/ProductCard";
-
+//porque no se llaman a los componentes hijos en Home? 
 function Home() {
   return (
     <div>

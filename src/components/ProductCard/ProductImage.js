@@ -2,7 +2,8 @@ import React from 'react'
 
 function ProductImage() {
   return (
-    <div>ProductImage</div>
+    <div className='product-card_image'>
+    </div>
   )
 }
 

@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ProductTitle() {
+function ProductTitle({title}) {
   return (
-    <div>ProductTitle</div>
+    <div className='product-card__title'>Título</div>
   )
 }
 

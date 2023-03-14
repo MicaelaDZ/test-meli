@@ -1,8 +1,9 @@
 import React from 'react'
 
-function ProductPrice() {
+function ProductPrice({price}) {
+
   return (
-    <div>ProductPrice</div>
+    <div className='product-card__price'>$ 1000</div>
   )
 }
 

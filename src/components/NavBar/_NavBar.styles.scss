@@ -1,15 +1,35 @@
-@import '../../styles/variables';
+@import "../../styles/variables";
 
-.box {
-background-color: $primary;
-width: 100%;
-color:black;
-margin-top: 0px;
-height: 3.5rem;
-width:100%;
-background-color: yellow;
-display:flex;
-justify-content: center;
-align-items: center
+.navbar-width {
+  background-color: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.input-width {
+    width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-top: 0px;
+  height: 3.5rem;
+}
+
+.input-image {
+  width: 3.5rem;
+  margin-right: 0.5rem;
+}
+
+.input-input {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+}
+
+.input-search-button {
+  width: 1.7rem;
+  height: 1.7rem;
 }
